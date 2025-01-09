@@ -21,29 +21,29 @@ function Navbar() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <a className="nav-link active" aria-current="page" href="/">
                   Home
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="/about">
                   About
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="/services">
                   Services
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="/contract">
                   Contract
                 </a>
               </li>
             </ul>
-            <a className="navbar-brand fw-bolder fs-4 mx-auto" href="#">
+            {/* <a className="navbar-brand fw-bolder fs-4 mx-auto" href="#">
               Navbar
-            </a>
+            </a> */}
             <button className="btn btn-outline-primary ms-auto px-4 rounded-pill">
               <IoIosLogIn />
               login

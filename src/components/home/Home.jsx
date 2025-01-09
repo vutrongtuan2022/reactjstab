@@ -1,4 +1,7 @@
 import React from "react";
+import About from "../about/About";
+import Services from "../services/Services";
+import Contract from "../contract/Contract";
 
 function Home() {
   return (
@@ -21,13 +24,16 @@ function Home() {
                   Get Quote
                 </button>
                 <button className="btn btn-ountline-light rounded-pill px-4 py-2">
-                  Get Quote
+                  Our Services
                 </button>
               </div>
             </div>
           </div>
         </div>
       </section>
+      <About />
+      <Services />
+      <Contract />
     </div>
   );
 }
